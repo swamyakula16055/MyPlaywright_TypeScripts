@@ -10,6 +10,11 @@
   "type": "commonjs",
   "devDependencies": {
     "@playwright/test": "^1.63.0",
-    "@types/node": "^26.6.2"
+    "@types/node": "^26.6.3",
+    "@types/xlsx": "^0.0.35"
+  },
+  "dependencies": {
+    "csv-parse": "^7.0.3",
+    "xlsx": "^0.18.5"
   }
 }
