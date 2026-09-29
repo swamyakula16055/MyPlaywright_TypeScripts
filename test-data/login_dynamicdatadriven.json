@@ -3,38 +3,38 @@
         "username": "standard_user",
         "password": "secret_sauce",
         "expected":"success",
-        "run":true
+        "run":"yes"
     },
     {
         "username": "locked_out_user",
         "password": "secret_sauce",
         "expected":"error",
-        "run":true
+        "run":"yes"
     },
 
     {
         "username": "problem_user",
         "password": "secret_sauce",
         "expected":"success",
-        "run":false
+        "run":"no"
     },
     {
         "username": "performance_glitch_user",
         "password": "secret_sauce",
         "expected":"success",
-        "run":true
+        "run":"yes"
     },
     {
         "username": "error_user",
         "password": "secret_sauce",
         "expected":"success",
-        "run":true
+        "run":"yes"
     },
     {
         "username": "visual_user",
         "password": "secret_sauce",
         "expected":"success",
-        "run":true
+        "run":"yes"
     }
 
 ]
